@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+header {
+    background-color: hsl(39, 100%, 54%);
+}
+
+main {
+    margin-top: 5rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80rem;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    font-size: 24px;
+    margin: 0.5em;
+}
+
+img {
+    max-height: 500px;
+    max-width: 400px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.5rem;
+    align-items: center;
+}
+.grid-item {
+    background-color: hsl(39, 100%, 54%);
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.recipe {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 15px;
+    padding: 0.5rem;
+}
+.description {
+
+}
+figure {
+    margin-bottom: 1rem;
+}
+.fc-edit {
+    font-size: 12px;
+    color: grey;
+}
+.ingredients {
+    margin: 1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+}
+.ingredients ul {
+    list-style-type: circle;
+    margin-left: 1.5em;
+}
+.steps {
+    margin: 1rem;
+}
+.steps li {
+    font-size: 16px;
+    margin-top: 0.4rem;
+}
